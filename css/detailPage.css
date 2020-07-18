@@ -1,0 +1,32 @@
+.detail-content p{
+    padding: 5px;
+    border: none;
+    font-size: 11px;
+}
+
+.team-name{
+    font-size: 18px;
+}
+
+.team-name img{
+    position: absolute;
+    right: 30px;
+}
+
+
+.my-favorite{
+
+    border-radius: 50%;
+    background-color: orange;
+}
+
+@media only screen and (min-width: 768px) {
+    
+.team-name img{
+    
+    position: absolute;
+    right: 180px;
+    width: 30px;
+    height: 30px;
+}
+}

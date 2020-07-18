@@ -1,0 +1,54 @@
+
+
+.card-image{
+    pointer-events: none;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.card-stacked{
+    pointer-events: none;
+}
+.card-image img{
+    pointer-events: none;
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    
+}
+
+.card-content p{
+    pointer-events: none;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 5px;
+}
+
+.won{
+    color: #43a047;
+}
+
+.draw{
+    color: orange;
+    margin-left: 10px;
+}
+
+.lost{
+    margin-left: 10px;
+    color: red;
+}
+
+
+.loader{
+    display: block;
+    width: 80px;
+    margin:100px auto;
+}
+
+@media only screen and (min-width: 768px){
+
+    .classement-items{
+        margin-top:80px;
+    }
+
+}
